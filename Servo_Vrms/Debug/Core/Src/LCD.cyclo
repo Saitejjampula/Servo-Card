@@ -1,0 +1,8 @@
+../Core/Src/LCD.c:13:6:delay	2
+../Core/Src/LCD.c:20:6:send_to_lcd	1
+../Core/Src/LCD.c:41:6:lcd_send_cmd	1
+../Core/Src/LCD.c:53:6:lcd_send_data	1
+../Core/Src/LCD.c:66:6:lcd_put_cur	3
+../Core/Src/LCD.c:80:6:lcd_init	1
+../Core/Src/LCD.c:115:6:lcd_send_string	2
+../Core/Src/LCD.c:123:6:lcd_clear	1

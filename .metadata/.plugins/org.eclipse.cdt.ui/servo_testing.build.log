@@ -1,0 +1,23 @@
+15:11:18 **** Build of configuration Debug for project servo_testing ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "servo_testing.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\servo_testing\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="servo_testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: servo_testing.elf
+ 
+arm-none-eabi-size   servo_testing.elf 
+arm-none-eabi-objdump -h -S  servo_testing.elf  > "servo_testing.list"
+   text	   data	    bss	    dec	    hex	filename
+  27480	    128	   2864	  30472	   7708	servo_testing.elf
+arm-none-eabi-objcopy  -O ihex  servo_testing.elf  "servo_testing.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  servo_testing.elf  "servo_testing.bin"
+ 
+Finished building: servo_testing.list
+ 
+Finished building: servo_testing.bin
+Finished building: servo_testing.hex
+ 
+ 
+
+15:11:21 Build Finished. 0 errors, 0 warnings. (took 2s.917ms)
+

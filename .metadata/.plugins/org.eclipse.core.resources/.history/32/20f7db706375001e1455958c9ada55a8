@@ -1,0 +1,11 @@
+../Core/Src/main.c:104:6:Vrefint_init	1
+../Core/Src/main.c:158:12:GetVref	4
+../Core/Src/main.c:184:12:FADC_Get_VRMS	4
+../Core/Src/main.c:239:6:HAL_ADC_ConvCpltCallback	2
+../Core/Src/main.c:258:5:main	2
+../Core/Src/main.c:361:6:SystemClock_Config	3
+../Core/Src/main.c:407:13:MX_ADC1_Init	5
+../Core/Src/main.c:483:13:MX_TIM1_Init	4
+../Core/Src/main.c:528:13:MX_DMA_Init	1
+../Core/Src/main.c:546:13:MX_GPIO_Init	1
+../Core/Src/main.c:600:6:Error_Handler	1

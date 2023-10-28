@@ -1,0 +1,10 @@
+11:52:51 **** Incremental Build of configuration Debug for project Servo_Vrms ****
+make -j12 all 
+arm-none-eabi-size   Servo_Vrms.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28624	    128	   2944	  31696	   7bd0	Servo_Vrms.elf
+Finished building: default.size.stdout
+ 
+
+11:52:51 Build Finished. 0 errors, 0 warnings. (took 429ms)
+

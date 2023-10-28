@@ -1,0 +1,10 @@
+15:27:42 **** Incremental Build of configuration Debug for project VDD_test ****
+make -j12 all 
+arm-none-eabi-size   VDD_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10056	     20	   1668	  11744	   2de0	VDD_test.elf
+Finished building: default.size.stdout
+ 
+
+15:27:43 Build Finished. 0 errors, 0 warnings. (took 493ms)
+

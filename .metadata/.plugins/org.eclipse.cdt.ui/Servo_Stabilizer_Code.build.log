@@ -1,0 +1,7 @@
+13:14:26 **** Incremental Build of configuration Debug for project Servo_Stabilizer_Code ****
+make -j12 all 
+Drivers/STM32G0xx_HAL_Driver/Src/subdir.mk:73: *** unable to generate command line.  Stop.
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+13:14:26 Build Failed. 1 errors, 0 warnings. (took 192ms)
+

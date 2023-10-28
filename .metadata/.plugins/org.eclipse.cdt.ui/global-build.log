@@ -1,0 +1,308 @@
+14:56:27 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30844	    120	   3288	  34252	   85cc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+14:56:31 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30844	    120	   3288	  34252	   85cc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:03:31 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:04:33 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30836	    120	   3280	  34236	   85bc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:05:55 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:327:32: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  327 |           sprintf(text,"%d,%d,%d",(uint16_t)(ADCVar.Vrms1),(uint16_t)(ADCVar.Vref*10));
+      |                               ~^
+      |                                |
+      |                                int
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30840	    120	   3280	  34240	   85c0	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:06:13 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:22:00 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:270:9: warning: unused variable 'Sample' [-Wunused-variable]
+  270 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:22:31 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:26:27 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:34:54 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:37:56 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:279:9: warning: unused variable 'Sample' [-Wunused-variable]
+  279 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30892	    120	   3288	  34300	   85fc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:38:20 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30892	    120	   3288	  34300	   85fc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:38:55 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:280:9: warning: unused variable 'Sample' [-Wunused-variable]
+  280 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30892	    120	   3288	  34300	   85fc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:39:44 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30892	    120	   3288	  34300	   85fc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+15:43:50 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:280:9: warning: unused variable 'Sample' [-Wunused-variable]
+  280 | uint8_t Sample = 0;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30892	    120	   3288	  34300	   85fc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:45:35 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30852	    120	   3288	  34260	   85d4	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:46:16 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30860	    120	   3288	  34268	   85dc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:49:30 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32g0xx_hal_msp.d" -MT"Core/Src/stm32g0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_hal_msp.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30860	    120	   3288	  34268	   85dc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:54:51 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30860	    120	   3288	  34268	   85dc	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:57:14 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30888	    120	   3288	  34296	   85f8	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+15:59:09 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30916	    120	   3288	  34324	   8614	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+16:01:05 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32g0xx_hal_msp.d" -MT"Core/Src/stm32g0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_hal_msp.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30916	    120	   3288	  34324	   8614	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 

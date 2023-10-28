@@ -1,0 +1,17 @@
+17:25:11 **** Incremental Build of configuration Debug for project servo_go31 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G031xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "servo_go31.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\servo_go31\STM32G031C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="servo_go31.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: servo_go31.elf
+ 
+arm-none-eabi-size   servo_go31.elf 
+arm-none-eabi-objdump -h -S  servo_go31.elf  > "servo_go31.list"
+   text	   data	    bss	    dec	    hex	filename
+  20272	     20	   2532	  22824	   5928	servo_go31.elf
+Finished building: default.size.stdout
+ 
+Finished building: servo_go31.list
+ 
+
+17:25:13 Build Finished. 0 errors, 0 warnings. (took 1s.863ms)
+

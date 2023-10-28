@@ -1,0 +1,10 @@
+16:58:33 **** Incremental Build of configuration Debug for project Lcdtest_VDD ****
+make -j12 all 
+arm-none-eabi-size   Lcdtest_VDD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18880	    100	   2700	  21680	   54b0	Lcdtest_VDD.elf
+Finished building: default.size.stdout
+ 
+
+16:58:33 Build Finished. 0 errors, 0 warnings. (took 273ms)
+

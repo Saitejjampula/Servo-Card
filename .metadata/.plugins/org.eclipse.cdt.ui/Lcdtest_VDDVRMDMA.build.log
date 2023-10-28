@@ -1,0 +1,18 @@
+16:01:05 **** Incremental Build of configuration Debug for project Lcdtest_VDDVRMDMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G030xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32g0xx_hal_msp.d" -MT"Core/Src/stm32g0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_hal_msp.o"
+arm-none-eabi-gcc -o "Lcdtest_VDDVRMDMA.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\Servo Card\Lcdtest_VDDVRMDMA\STM32G030C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lcdtest_VDDVRMDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lcdtest_VDDVRMDMA.elf
+ 
+arm-none-eabi-size   Lcdtest_VDDVRMDMA.elf 
+arm-none-eabi-objdump -h -S  Lcdtest_VDDVRMDMA.elf  > "Lcdtest_VDDVRMDMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  30916	    120	   3288	  34324	   8614	Lcdtest_VDDVRMDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lcdtest_VDDVRMDMA.list
+ 
+
+16:01:06 Build Finished. 0 errors, 0 warnings. (took 1s.27ms)
+
